@@ -5,8 +5,24 @@ body{
     font-size: 10px;
 
     display: block;
+
+    padding: 0;
 }
 
+
+/*Header content------------------------------*/
+header{
+    /*display*/
+    display: flex;
+    justify-content: center;
+    /*Box*/
+    background-color: black;
+    margin: 20px;
+    font-size: 4em;
+    /*Text*/
+    color: white;
+}
+/*Main content------------------------------*/
 main{
     /*display*/
     display: flex;
@@ -14,6 +30,7 @@ main{
     align-items: center;
     flex-flow: row wrap;
     /*box*/
+    margin: 20px
     border: 2px solid black;
     width: 1000px;
     margin: 0 auto;
@@ -28,3 +45,4 @@ main{
 .square:nth-last-of-type(2n){
     background-color: red;
 }
+
