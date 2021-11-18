@@ -23,26 +23,3 @@ header{
     color: white;
 }
 /*Main content------------------------------*/
-main{
-    /*display*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    /*box*/
-    margin: 20px
-    border: 2px solid black;
-    width: 1000px;
-    margin: 0 auto;
-}
-
-.square{
-    flex-basis: 200px;
-    height: 200px;
-    background-color: black;
-}
-
-.square:nth-last-of-type(2n){
-    background-color: red;
-}
-
