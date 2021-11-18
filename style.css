@@ -10,18 +10,16 @@ body{
 main{
     /*display*/
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
     /*box*/
-    border: 2px solid black;
-    width: 1000px;
+    border: 1px solid black;
+    width: 500px;
     margin: 0 auto;
 }
 
 .square{
-    flex-basis: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-color: black;
 }
 
