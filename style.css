@@ -5,16 +5,37 @@ body{
     font-size: 10px;
 
     display: block;
+
+    padding: 0;
 }
 
+
+/*Header content------------------------------*/
+header{
+    /*display*/
+    display: flex;
+    justify-content: center;
+    /*Box*/
+    background-color: black;
+    margin: 20px;
+    font-size: 4em;
+    /*Text*/
+    color: white;
+}
+/*Main content------------------------------*/
 main{
     /*display*/
     display: flex;
     flex-flow: row wrap;
     /*box*/
+<<<<<<< HEAD
     border: 1px solid black;
     width: 500px;
     margin: 0 auto;
+=======
+
+>>>>>>> header
+    
 }
 
 .square{
@@ -26,3 +47,4 @@ main{
 .square:nth-last-of-type(2n){
     background-color: red;
 }
+
