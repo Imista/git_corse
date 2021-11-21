@@ -48,12 +48,11 @@ main{
 /*Footer*/
 footer{
     /*display*/
-    display:flex;
-    justify-content: center;
-    flex-basis: 100%;
+    display:block;
     /*text*/
-    font-size: 4rem;
+    font-size: 3rem;
     color: white;
+    text-align: center;
     /*box*/
     background-color: black;
     margin-top: 20px;
