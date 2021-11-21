@@ -45,3 +45,16 @@ main{
     background-color: red;
 }
 
+/*Footer*/
+footer{
+    /*display*/
+    display:flex;
+    justify-content: center;
+    flex-basis: 100%;
+    /*text*/
+    font-size: 4rem;
+    color: white;
+    /*box*/
+    background-color: black;
+    margin-top: 20px;
+}
